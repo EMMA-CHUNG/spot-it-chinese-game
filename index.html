@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chinese Spot It</title>
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Chinese Spot It</h1>
+
+  <div id="game">
+    <div id="instructions">
+      <!-- This text will update with the target character to find -->
+      <p id="target-text">Find this character:</p>
+      <!-- Feedback (e.g., “Correct!” / “Try again!”) will appear here -->
+      <p id="feedback"></p>
+    </div>
+
+    <!-- Button to start / restart rounds -->
+    <button id="new-round-btn">Start New Round</button>
+
+    <!-- Container to hold the character buttons -->
+    <div id="cards-container"></div>
+  </div>
+
+  <!-- Link to external JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
