@@ -1,5 +1,5 @@
 // A small list of Chinese characters:
-const allCharacters = ["家", "学", "爱", "水", "火", "猫", "狗", "人", "天", "地"];
+const allCharacters = ["家", "學", "愛", "水", "火", "貓", "狗", "人", "天", "地"];
 
 let targetChar = null;
 let roundChars = [];
