@@ -2,29 +2,30 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Chinese Spot It</title>
-  <!-- Link to external CSS -->
+  <title>Chinese Spot It (Two Sets)</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Chinese Spot It</h1>
+  <h1>Chinese Spot It (Two Sets)</h1>
 
-  <div id="game">
-    <div id="instructions">
-      <!-- This text will update with the target character to find -->
-      <p id="target-text">Find this character:</p>
-      <!-- Feedback (e.g., “Correct!” / “Try again!”) will appear here -->
-      <p id="feedback"></p>
-    </div>
-
-    <!-- Button to start / restart rounds -->
+  <div id="game-area">
+    <!-- Button to generate new sets -->
     <button id="new-round-btn">Start New Round</button>
+    
+    <div id="feedback"></div>
 
-    <!-- Container to hold the character buttons -->
-    <div id="cards-container"></div>
+    <div class="sets-container">
+      <div class="set" id="set1">
+        <h2>Set 1</h2>
+        <div id="cards-container-1" class="cards-container"></div>
+      </div>
+      <div class="set" id="set2">
+        <h2>Set 2</h2>
+        <div id="cards-container-2" class="cards-container"></div>
+      </div>
+    </div>
   </div>
 
-  <!-- Link to external JavaScript -->
   <script src="app.js"></script>
 </body>
 </html>
